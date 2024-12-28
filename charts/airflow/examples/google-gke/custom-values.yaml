@@ -319,10 +319,9 @@ dags:
     ## the url of the git repo
     repo: "git@github.com:USERNAME/REPOSITORY.git"
 
-    ## the git branch to check out
-    branch: master
-
-    ## the git revision (tag or hash) to check out
+    ## the git revision (branch, tag, or hash) to check out
+    ## specifying "HEAD" will use the repo's default branch
+    ## when specifying a hash, it must be a full hash, and not an abbreviated form.
     revision: HEAD
 
     ## the name of a pre-created Secret with git ssh credentials

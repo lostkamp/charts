@@ -44,8 +44,7 @@ dags:
     
     ## NOTE: some git providers will need an `ssh://` prefix
     repo: "git@github.com:USERNAME/REPOSITORY.git"
-    branch: "master"
-    revision: "HEAD"
+    revision: "master"
     
     ## the sub-path within your repo where dags are located
     ## NOTE: airflow will only see dags under this path, but the whole repo will still be synced
@@ -111,8 +110,7 @@ dags:
     enabled: true
     
     repo: "https://github.com/USERNAME/REPOSITORY.git"
-    branch: "master"
-    revision: "HEAD"
+    revision: "master"
     
     ## the sub-path within your repo where dags are located
     ## NOTE: airflow will only see dags under this path, but the whole repo will still be synced

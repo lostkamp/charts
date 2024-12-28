@@ -85,7 +85,7 @@ dags:
   gitSync:
     enabled: true
     repo: "https://github.com/USERNAME/REPOSITORY.git"
-    branch: "master"
+    revision: "master"
 ```
 
 </details>
